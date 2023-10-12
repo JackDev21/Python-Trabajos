@@ -1,3 +1,14 @@
+"""
+Este fragmento de código crea una lista llamada beatles y realiza varias operaciones en ella:
+
+Inicializa una lista vacía y la muestra en pantalla.
+Añade tres nombres a la lista y la muestra en pantalla.
+Agrega dos nombres más a la lista utilizando un bucle y la muestra en pantalla.
+Elimina dos elementos de la lista y la muestra en pantalla.
+Inserta un nuevo nombre al principio de la lista y la muestra en pantalla.
+Calcula y muestra en pantalla la longitud de la lista.
+"""
+
 
 beatles = [] # paso 1
 print("Paso 1:", beatles)
