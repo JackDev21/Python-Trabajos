@@ -1,0 +1,25 @@
+{% block content %}
+  <h2>Lista de Nóminas</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Numero Empleado</th>
+        <th>Salario</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for nomina in nominas %}
+        <tr>
+          <td>{{ nomina.id }}</td>
+          <td>{{ nomina.numero_empleado }}</td>
+          <td>{{ nomina.salario }}</td>
+        </tr>
+      {% empty %}
+        <tr>
+          <td colspan="4">No hay nóminas</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}
